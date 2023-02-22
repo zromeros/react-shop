@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/ProductItem.scss";
-//import close from '@icons/icon_close.png'
+import "@styles/ProductItem.scss";
+import close from "@icons/icon_close.png";
 
 const OrderItem = () => {
   return (

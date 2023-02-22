@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
-import "../styles/Login.scss";
-//import logo from "logos/logo_yard_sale.svg";
+import "@styles/Login.scss";
+import logo from "@logos/logo_yard_sale.svg";
 
 const Login = () => {
   const form = useRef(null);
@@ -18,7 +18,7 @@ const Login = () => {
   return (
     <div className="Login">
       <div className="Login-container">
-        <img src={""} alt="logo" className="logo" />
+        <img src={logo} alt="logo" className="logo" />
         <form action="/" className="form" ref={form}>
           <label htmlFor="email" className="label">
             Email address
