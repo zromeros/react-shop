@@ -9,7 +9,7 @@ const Login = () => {
     event.preventDefault();
     const formData = new FormData(form.current);
     const data = {
-      usename: formData.get("email"),
+      username: formData.get("email"),
       password: formData.get("password"),
     };
     console.log(data);
@@ -26,7 +26,7 @@ const Login = () => {
           <input
             type="text"
             name="email"
-            placeholder="platzi@example.cm"
+            placeholder="platzi@example.com"
             className="input input-email"
           />
           <label htmlFor="password" className="label">
